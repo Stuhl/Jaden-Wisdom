@@ -1,1 +1,1 @@
-[Jaden quotes]https://stuhl.github.io/Jaden-Wisdom/
+[Jaden quotes](https://stuhl.github.io/Jaden-Wisdom/)
