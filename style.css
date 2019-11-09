@@ -135,3 +135,32 @@ p {
 .count {
   font-size: 15px;
 }
+
+
+@media only screen and (max-width: 500px) {
+  #grid {
+    display: grid;
+    grid-template-columns: 30px 80vw 30px;
+    grid-template-rows: 5vh 5vh 10vh;
+  }
+
+  h1 {
+    font-size: 30px;
+    /* transform: translateX(-70%); */
+  }
+
+  p {
+    font-size: 12px;
+    /* transform: translateX(-65%); */
+  }
+
+  #twitterPost {
+    transform: scale(0.5) translateY(-50px);
+    /* align-self: start; */
+  }
+
+  body {
+    background-size: 500px;
+    background-repeat: repeat;
+  }
+}
