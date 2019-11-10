@@ -17,7 +17,7 @@ let posts =  [
   "Since we’re family, we both have wins, and we don’t really go against each other, like, ‘I’m gonna kill you,’ ",
   "People Use To Ask Me What Do You Wanna Be When You Get Older And I Would Say What A Stupid Question The Real Question Is What Am I Right Now."
 ]
-let postsIndex = 0;
+let postsIndex = 0
 
 function randomizePosts() {
   const postsCopy = posts.concat()
@@ -59,14 +59,10 @@ function initialContent() {
 function getPost() {
   if (postsIndex >= posts.length) {
     postsIndex = 0
-    const post = posts[postsIndex]
-    postsIndex++
-    return post
-  } else {
-    const post = posts[postsIndex]
-    postsIndex++
-    return post
   }
+  const post = posts[postsIndex]
+  postsIndex++
+  return post
 }
 
 button.addEventListener("click", () => {
